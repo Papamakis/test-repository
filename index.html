@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1 id="title">SURVEY FORM</H1>
+      <p id="description">This is a data collection form for your personal studing progression statistics</p>
+      <div class="main-content">
+        <form id="survey-form">
+          <label for="Name"  id="name-label" > Username: </label>
+          <input id="Name" type="text" placeholder="Username" autofocus required></input>
+          <label for="email" id="email-label">E-mail:</label>
+          <input id="email" required type="email" placeholder="Enter your E-mail">
+          <label for="number" id="number-label">Number</label>
+          <input id="number" min="1" max="10" placeholder="Enter a number" type="number">
+          <label for="dropdown-list">This is a dropdown list: </label>
+          <select id="dropdown-list" name="dropdown-nametag">
+            <option value="" disabled selected >Options..</option>
+            <option value="option1">Option 1</option>
+            <option value="option2" id="dropdown">Option 2</option>
+            <option value="option3">Option 3</option>
+            <option value="option4">Option 4</option>
+          </select>
+          <p>Here are some radio buttons:</p>
+          <div class="radio-buttons">
+            <div>
+              <input id="radOption1" type="radio" name="chooseone" value="radio-1">
+              <label for="radOption1">Option 1</label>
+            </div>
+            <div>
+              <input id="radOption2" type="radio" name="chooseone" value="radio-2">
+              <label for="radOption2">Option 2</label>
+            </div>
+            <div>
+              <input id="radOption3" type="radio" name="chooseone" value="radio-3">
+              <label for="radOption3">Option 3</label>
+            </div>
+            <div>
+              <input id="radOption4" type="radio" name="chooseone" value="radio-4">
+              <label for="radOption4">Option 4</label>
+            </div>
+          </div>
+          <p>Here are some checkbox buttons:</p>
+          <div class="checkbox-buttons">
+            <div>
+              <input id="radOption1" type="checkbox" name="chooseone" value="checkbox-1">
+              <label for="checkOption1">Option 1</label>
+            </div>
+            <div>
+              <input id="radOption2" type="checkbox" name="chooseone" value="checkbox-2">
+              <label for="checkOption2">Option 2</label>
+            </div>
+            <div>
+              <input id="radOption3" type="checkbox" name="chooseone" value="checkbox-3">
+              <label for="checkOption3">Option 3</label>
+            </div>
+            <div>
+              <input id="radOption4" type="checkbox" name="chooseone" value="checkbox-4">
+              <label for="checkOption4">Option 4</label>
+            </div>
+          </div>
+          <label for="opinion">Tell us your opinion about this survey form:</label>
+          <textarea name="opinion" name="opinion" rows="8" cols="80">Skrr skrr.....</textarea>
+
+
+
+
+
+
+
+
+          </div>
+        </form>
+      </div>
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+  </body>
+</html>
